@@ -1,12 +1,15 @@
 Hello!
 
-Audience: young entrepreneurs how what to open a new restaurant in Moscow city center
+Audience: young entrepreneurs how what to open a new restaurant in the Moscow city center
 
 Business problem: should they open a restaurant? 
-If yes, what cuisine the restaurant should have and where the restaurant should be located in Moscow city center? 
-
-Analytics to answer the business problem: 
-identification of cuisines with least presence in  Moscow city center and 
-selection of location which are close to areas with dense number of restaurants but far from the closest one
+If yes, what cuisine the restaurant should have and where the restaurant should be located in the Moscow city center? 
 
 
+Analytics needed to answer the business problem: 
+-	Identification of cuisines with least presence in Moscow city center (the long list of potential cuisines)
+-	Selection of areas which are have many restaurants and have at least one cuisine, which are from the previous point, not presented in area
+-	Selection of the best cuisine and area for opening
+o	Biggest area – more than 50 restaurants
+o	Minimum number of cuisines in the Moscow city denter
+-	If there is one – then go
