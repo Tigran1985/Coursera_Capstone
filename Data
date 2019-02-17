@@ -1,0 +1,16 @@
+Analytics needed to answer the business problem: 
+Data: 
+	Moscow city center clusters
+	Restaurants (location, cuisine, rating)
+
+Steps:
+-	Divide the Moscow city center into clusters – 2x2 km (Clusters) 
+- 	Select most popular restaurants in each cluster (50 restaurants in cluster)  
+- 	Understand the presence of competitors (Italian restaurants) in each cluster (50 Italian restaurants in cluster)
+-	Assign each cluster two values: popularity of the cluster (average rate of 50 restaurants in cluster) and Italian restaurants presence (average rate of TOP 10 Italian restaurants in cluster)
+- 	Prioritizations of clusters
+	- Descending: popularity of the cluster
+- Descending: Italian restaurants presence
+- 	Selection of TOP-10 areas, which has a value of Italian restaurants presence more than 7.5
+- 	Present to entrepreneurs to take a decision on go / no-go
+
